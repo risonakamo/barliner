@@ -2,6 +2,7 @@
 body {
   margin: 20px;
   background-color: #43455c;
+  font-family: "roboto";
 }
 .bar-container {
   width: 400px;
@@ -33,6 +34,15 @@ body {
   height: 200%;
   bottom: 0;
   background-color: #fefefe;
+}
+.bar-liner .main-bar .date-mark {
+  position: absolute;
+  width: 40px;
+  bottom: -20px;
+  margin-left: -20px;
+  font-size: 10px;
+  text-align: center;
+  color: #fefefe;
 }
 /*-- end bar liner css --*/
 
